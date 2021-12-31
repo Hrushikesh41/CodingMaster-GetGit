@@ -1,0 +1,113 @@
+    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #292b2c;
+        font-family: 'Mukta', sans-serif;
+        color: white;
+    }
+    
+    .container {
+        height: 100vh;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .container #users {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 70%;
+    }
+    
+    .container #users #findUsers {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container #users #findUsers p {
+        font-size: 2.3rem;
+    }
+    
+    .container #users #findUsers input {
+        margin-top: 50px;
+        padding: 1.2rem;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        width: 60%;
+        text-align: center;
+    }
+    
+    .container #users #findUsers input::placeholder {
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container #users #findUsers button {
+        margin-top: 80px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 3px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #FFA500;
+        color: white;
+        font-weight: bolder;
+        font-family: 'Mukta', sans-serif;
+    }
+    
+    .container #users #showUsers {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+    }
+    
+    .showContent {
+        margin-top: 30px;
+    }
+    
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    
+    .login {
+        margin-top: 40px;
+    }
+    
+    .bio {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .bio a {
+        color: white;
+    }
+    
+    .link a {
+        color: white;
+    }
+    
+    .link {
+        margin-top: 30px;
+    }
